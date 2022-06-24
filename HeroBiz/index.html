@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+  
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+
+
+    <!--Heder start-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!--Heder end-->
+    <!--Mian start-->
+    <main>
+        <section id="home" class="my-5 py-5">
+            <div class="container">
+                <div>
+                    <div class="home-img col-6"><img src="./assets/img/hero-carousel-3.svg" alt=""></div>
+                    <h1 class="text-center pt-5">Welcom to <span class="herobiz">HeroBiz</span></h1>
+                    <p class="text-center">Et voluptate esse accusantium accusamus natus reiciendis quidem voluptates
+                        similique aut.</p>
+                    <div class="col-6 m-auto text-center d-flex justify-content-center align-items-center">
+                        <button class="start-btn ">Get started</button>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="modal-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <h4 class="mx-3"><i class="fa-regular fa-circle-play"></i> Watch Video</h4>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LXb3EKWsInQ"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="feature" class="my-5 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="feature-item p-3">
+                            <h1><i class="fa-solid fa-vector-square"></i></h1>
+                            <h4>Lorem Ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                Reprehenderit recusandnesciunt laudan</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="feature-item p-3">
+                            <h1><i class="fa-solid fa-vector-square"></i></h1>
+                            <h4>Lorem Ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                Reprehenderit recusandnesciunt laudan</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="feature-item p-3">
+                            <h1><i class="fa-solid fa-vector-square"></i></h1>
+                            <h4>Lorem Ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                Reprehenderit recusandnesciunt laudan</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="feature-item p-3">
+                            <h1><i class="fa-solid fa-vector-square"></i></h1>
+                            <h4>Lorem Ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                Reprehenderit recusandnesciunt laudan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="my-5 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="mb-4">About Us</h1>
+                        <p class="mb-5">Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt
+                            iusto omnis nam voluptas asperiores sequi tenetur dolores incidunt enim voluptatem magnam
+                            cumque fuga.</p>
+                    </div>
+                </div>
+                <div class="row px-5">
+                    <div class="col-lg-5 col-12 my-5">
+                        <div class="right-side ">
+                            <img src="./assets/img/about.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-12 my-5 ps-5 ">
+                        <div class="left-side ">
+                            <h2>Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero</h2>
+                            <ul class="tabs">
+                                <li class="tab-link current" data-tab="tab-1">Saepe fuga</li>
+                                <li class="tab-link" data-tab="tab-2">Voluptates</li>
+                                <li class="tab-link" data-tab="tab-3">Corrupti</li>
+                            </ul>
+
+                            <div id="tab-1" class="tab-content current">
+                                <p class="fst-italic fs-6 "> Consequuntur inventore voluptates consequatur aut vel et.
+                                    Eos
+                                    doloribus sequatur minima nihil quae aspernatur quo
+                                    suscipit voluptatem.</p>
+                                <div class="mb-5"><b><i class="fa-solid fa-check"></i> Repudiandae rerum velit modi et
+                                        officia quasi
+                                        facilis</b><br>
+                                    <span>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima
+                                        commodi dolorum non eveniet magni quaerat nemo et.</span>
+                                </div>
+                                <div class="mb-5"><b><i class="fa-solid fa-check"></i> Repudiandae rerum velit modi et
+                                        officia quasi
+                                        facilis</b><br>
+                                    <span>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima
+                                        commodi dolorum non eveniet magni quaerat nemo et.</span>
+                                </div>
+                                <div><b><i class="fa-solid fa-check"></i> Repudiandae rerum velit modi et officia quasi
+                                        facilis</b><br>
+                                    <span>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima
+                                        commodi dolorum non eveniet magni quaerat nemo et.</span>
+                                </div>
+                            </div>
+                            <div id="tab-2" class="tab-content ">
+                                <p class="fst-italic fs-6 "> Consequuntur inventore voluptates consequatur aut vel et.
+                                    Eos
+                                    doloribus sequatur minima nihil quae aspernatur quo
+                                    suscipit voluptatem.</p>
+                                <div class="mb-5"><b><i class="fa-solid fa-check"></i> Repudiandae rerum velit modi et
+                                        officia quasi
+                                        facilis</b><br>
+                                    <span>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima
+                                        commodi dolorum non eveniet magni quaerat nemo et.</span>
+                                </div>
+
+                            </div>
+                            <div id="tab-3" class="tab-content ">
+                                <p class="fst-italic fs-6 "> Consequuntur inventore voluptates consequatur aut vel et.
+                                    Eos
+                                    doloribus sequatur minima nihil quae aspernatur quo
+                                    suscipit voluptatem.</p>
+
+                                <div class="mb-5"><b><i class="fa-solid fa-check"></i> Repudiandae rerum velit modi et
+                                        officia quasi
+                                        facilis</b><br>
+                                    <span>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima
+                                        commodi dolorum non eveniet magni quaerat nemo et.</span>
+                                </div>
+                                <div><b><i class="fa-solid fa-check"></i> Repudiandae rerum velit modi et officia quasi
+                                        facilis</b><br>
+                                    <span>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima
+                                        commodi dolorum non eveniet magni quaerat nemo et.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <section id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="mb-4 fw-light text-secondary ">Our Team</h1>
+                        <p class="mb-5 text-secondary col-9 mx-auto ">Architecto nobis eos vel nam quidem vitae
+                            temporibus voluptates qui hic deserunt
+                            iusto omnis nam voluptas asperiores sequi tenetur dolores incidunt enim voluptatem magnam
+                            cumque fuga.</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 px-3 py-md-5">
+                        <div class="team-item">
+                            <div class="team-memb">
+                                <img src="./assets/img/team-1.jpg" alt="">
+                                <div class="text-center col-10 team-info  text-secondary">
+                                    <h3 class="fw-light pt-3">Walter White</h3>
+                                    <p>Chief Executive Officer</p>
+                                    <div class="icon">
+                                        <i class="fa-brands fa-instagram"></i>
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 px-3 py-md-5">
+                        <div class="team-item">
+                            <div class="team-memb">
+                                <img src="./assets/img/team-2.jpg" alt="">
+                                <div class="text-center col-10 team-info  text-secondary">
+                                    <h3 class="fw-light pt-3">Walter White</h3>
+                                    <p>Chief Executive Officer</p>
+                                    <div class="icon">
+                                        <i class="fa-brands fa-instagram"></i>
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 px-3 py-md-5">
+                        <div class="team-item">
+                            <div class="team-memb">
+                                <img src="./assets/img/team-3.jpg" alt="">
+                                <div class="text-center col-10 team-info  text-secondary">
+                                    <h3 class="fw-light pt-3">Walter White</h3>
+                                    <p>Chief Executive Officer</p>
+                                    <div class="icon">
+                                        <i class="fa-brands fa-instagram"></i>
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="blog" class="py-5 my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center py-5">
+                        <h1 class="mb-4 fw-light text-secondary ">Blog</h1>
+                        <h6 class="mb-5 text-secondary col-9 mx-auto ">Recent posts form our Blog</h6>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="blog-item">
+                            <div class="img">
+                                <img src="./assets/img/blog-1.jpg" alt="">
+                            </div>
+                            <p class="mt-3"><span class="date">Tue, December 12</span><span class="text-secondary"> /
+                                    Julia Parker</span></p>
+                            <h4>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit </h4>
+                            <p class="text-secondary"> Illum voluptas ab enim placeat. Adipisci enim velit nulla. Vel
+                                omnis laudantium.
+                                Asperiores eum ipsa est officiis. Modi cupiditate exercitationem qui magni est... </p>
+                            <p class="read">Read More <i class="fa-solid fa-arrow-right-long"></i></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="blog-item">
+                            <div class="img">
+                                <img src="./assets/img/blog-2.jpg" alt="">
+                            </div>
+                            <p class="mt-3"><span class="date">Tue, December 12</span><span class="text-secondary"> /
+                                    Julia Parker</span></p>
+                            <h4>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit </h4>
+                            <p class="text-secondary"> Illum voluptas ab enim placeat. Adipisci enim velit nulla. Vel
+                                omnis laudantium.
+                                Asperiores eum ipsa est officiis. Modi cupiditate exercitationem qui magni est... </p>
+                            <p class="read">Read More <i class="fa-solid fa-arrow-right-long"></i></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="blog-item">
+                            <div class="img">
+                                <img src="./assets/img/blog-3.jpg" alt="">
+                            </div>
+                            <p class="mt-3"><span class="date">Tue, December 12</span><span class="text-secondary"> /
+                                    Julia Parker</span></p>
+                            <h4>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit </h4>
+                            <p class="text-secondary"> Illum voluptas ab enim placeat. Adipisci enim velit nulla. Vel
+                                omnis laudantium.
+                                Asperiores eum ipsa est officiis. Modi cupiditate exercitationem qui magni est... </p>
+                            <p class="read">Read More <i class="fa-solid fa-arrow-right-long"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="py-5 my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center py-5">
+                        <h1 class="mb-4 fw-light text-secondary ">Contact Us</h1>
+                        <h6 class="mb-5 text-secondary col-9 mx-auto ">Ea vitae aspernatur deserunt voluptatem impedit
+                            deserunt magnam occaecati dssumenda quas ut ad dolores adipisci aliquam.</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48625.55864760777!2d49.775920227326516!3d40.384533521708214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d8c33c62a3f%3A0x77807ca915edd570!2sYasamal%2C%20Baku%2C%20Azerbaijan!5e0!3m2!1sen!2s!4v1656082753998!5m2!1sen!2s"
+                    height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-12">
+                        <div class="left-side px-5 my-5 py-4">
+                            <h4>Get in touch</h4>
+                            <p class="text-secondary">Et id eius voluptates atque nihil voluptatem enim in tempore
+                                minima sit ad mollitia commodi minus.</p>
+                            <div class="d-flex align-items-center">
+                                <div class="col-1 me-2"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="col-11">
+                                    <h5>Location:</h5><span class="text-secondary">A108 Adam Street, New York, NY
+                                        535022</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <div class="col-1 me-2"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="col-11">
+                                    <h5>Location:</h5><span class="text-secondary">A108 Adam Street, New York, NY
+                                        535022</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <div class="col-1 me-2"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="col-11">
+                                    <h5>Location:</h5><span class="text-secondary">A108 Adam Street, New York, NY
+                                        535022</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <div class="right-side px-5 my-5 py-4">
+                            <form class="text-center">
+                                <!-- 2 column grid layout with text inputs for the first and last names -->
+                                <div class="row mb-4">
+                                    <div class="col">
+                                        <div class="form-outline">
+                                            <input type="text" id="form6Example1" class="form-control"
+                                                placeholder="Your Name" />
+
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-outline">
+                                            <input type="text" id="form6Example2" class="form-control"
+                                                placeholder="Subject" />
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Email input -->
+                                <div class="form-outline mb-4">
+                                    <input type="email" id="form6Example5" class="form-control"
+                                        placeholder="Your Email" />
+
+                                </div>
+                                <!-- Message input -->
+                                <div class="form-outline mb-4">
+                                    <textarea class="form-control" id="form6Example7" rows="7"
+                                        placeholder="Message"></textarea>
+
+                                </div>
+                                <!-- Submit button -->
+
+                                <button type="submit" class="submit-btn">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <!--Main end-->
+    <!--Footer start-->
+    
+        <footer class="text-center text-lg-start bg-light text-muted">
+            <!-- Section: Social media -->
+            <section class="container d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <!-- Left -->
+                <div class="me-5 d-none d-lg-block">
+                    <span>Get connected with us on social networks:</span>
+                </div>
+                <!-- Left -->
+
+                <!-- Right -->
+                <div>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3"></i>Company name
+                            </h6>
+                            <p>
+                                Here you can use rows and columns to organize your footer content. Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Products
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Angular</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">React</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Vue</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Laravel</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Useful links
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Pricing</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Settings</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Orders</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Help</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Contact
+                            </h6>
+                            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                info@example.com
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+          
+        </footer>
+    <!--Footer end-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

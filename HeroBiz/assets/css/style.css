@@ -1,0 +1,232 @@
+main #home .home-img {
+  margin: 0 auto;
+}
+
+main #home .home-img img {
+  max-width: 100%;
+}
+
+main #home h1 {
+  font-size: 50px;
+  font-weight: 300;
+  color: #6c7782;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+}
+
+main #home h1 span {
+  color: #0ea2bd;
+}
+
+main #home p {
+  font-family: "Poppins", sans-serif;
+  color: #6c7782;
+  font-size: 19px;
+}
+
+main #home .start-btn {
+  border-radius: 5px;
+  border: none;
+  background-color: #0ea2bd;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 20px;
+}
+
+main #home h4 i {
+  color: #0ea2bd;
+}
+
+main #home h4:hover {
+  color: #0ea2bd;
+  cursor: pointer;
+}
+
+main #home .modal-btn {
+  border: none;
+  background-color: transparent;
+}
+
+main #feature .feature-item {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+main #feature .feature-item:hover {
+  -webkit-box-shadow: 5px 10px 18px #888888;
+          box-shadow: 5px 10px 18px #888888;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+main #feature .feature-item:hover h4 {
+  color: #0ea2bd;
+}
+
+main #feature i {
+  color: #0ea2bd;
+}
+
+main #feature h4 {
+  font-family: "Poppins", sans-serif;
+  color: #57535f;
+}
+
+main #about {
+  font-family: "Poppins";
+}
+
+main #about h1 {
+  font-weight: 200;
+  color: #666666;
+}
+
+main #about .right-side img {
+  max-width: 100%;
+}
+
+main #about .left-side h2 {
+  color: #485664;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+main #about .left-side ul.tabs {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+main #about .left-side ul.tabs li {
+  background: none;
+  color: #2c2c35;
+  display: inline-block;
+  padding: 20px 15px;
+  cursor: pointer;
+  font-size: 19px;
+}
+
+main #about .left-side ul.tabs li.current {
+  color: #0ea2bd;
+  border-bottom: solid 2px #0ea2bd;
+}
+
+main #about .left-side .tab-content {
+  display: none;
+  border-top: 1px solid #bdb9b9;
+  padding: 15px;
+}
+
+main #about .left-side .tab-content.current {
+  display: inherit;
+}
+
+main #about .left-side i {
+  color: #0ea2bd;
+}
+
+main #team img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+main #team .team-memb {
+  position: relative;
+}
+
+main #team .team-memb:hover .icon {
+  opacity: 100;
+}
+
+main #team .team-info {
+  background-color: white;
+  position: absolute;
+  top: 87%;
+  left: 9%;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 8px #888888;
+          box-shadow: 10px 10px 8px #888888;
+}
+
+main #team .team-info .icon {
+  position: absolute;
+  bottom: 80%;
+  opacity: 0;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+main #team .team-info .icon i {
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 50%;
+  background-color: #0ea2bd;
+  color: white;
+}
+
+main #blog .blog-item {
+  border-radius: 10px;
+}
+
+main #blog .blog-item img {
+  max-width: 100%;
+  border-radius: 10px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+main #blog .blog-item .img {
+  overflow: hidden;
+}
+
+main #blog .blog-item .date {
+  color: #0ea2bd;
+}
+
+main #blog .blog-item h4 {
+  color: #2c2c35;
+}
+
+main #blog .blog-item .read {
+  color: #0d8ba1;
+}
+
+main #blog .blog-item:hover {
+  cursor: pointer;
+}
+
+main #blog .blog-item:hover h4 {
+  color: #0ea2bd;
+}
+
+main #blog .blog-item:hover .read {
+  color: #0ea2bd;
+}
+
+main #blog .blog-item:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+main #contact iframe {
+  width: 100%;
+}
+
+main #contact i {
+  font-size: 25px;
+  color: #0ea2bd;
+}
+
+main #contact .left-side {
+  -webkit-box-shadow: 5px 5px 20px 2px #888888;
+          box-shadow: 5px 5px 20px 2px #888888;
+}
+
+main #contact .submit-btn {
+  border: none;
+  color: white;
+  background-color: #0ea2bd;
+  border-radius: 5px;
+  padding: 8px 20px;
+}
+/*# sourceMappingURL=style.css.map */
